@@ -21,8 +21,6 @@ plugins: [
 ]
 ```
 
-Finally, make sure to add `.linaria-cache` to your `.gitignore` file.
-
 ## TypeScript
 
 If you're using TypeScript, make sure to include `gatsby-plugin-typescript` **before** `gatsby-plugin-linaria` in your config:

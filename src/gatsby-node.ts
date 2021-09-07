@@ -39,6 +39,7 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({
     options: {
       sourceMap: isDevelop,
       displayName: isDevelop,
+      cacheDirectory: './.cache/linaria',
       babelOptions: {
         presets: [
           'babel-preset-gatsby',
